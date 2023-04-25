@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rediff Only Suite">
+  <test name="Rediff Test">
+    <classes>
+      <class name="com.automationcode_8th_April_2023.RediffCreateAccountTest"/>
+      <class name="com.automationcode_8th_April_2023.RediffLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

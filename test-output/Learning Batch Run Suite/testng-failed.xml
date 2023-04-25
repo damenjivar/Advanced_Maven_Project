@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Learning Batch Run Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Batch Running Test(failed)">
+    <classes>
+      <class name="com.automationcode_8th_April_2023.RediffCreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="rediffCreateAccount"/>
+        </methods>
+      </class> <!-- com.automationcode_8th_April_2023.RediffCreateAccountTest -->
+      <class name="com.automationcode_8th_April_2023.RediffLoginTest">
+        <methods>
+          <include name="rediffLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationcode_8th_April_2023.RediffLoginTest -->
+    </classes>
+  </test> <!-- Batch Running Test(failed) -->
+</suite> <!-- Failed suite [Learning Batch Run Suite] -->

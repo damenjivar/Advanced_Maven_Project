@@ -1,0 +1,22 @@
+listeners are nothing but interfaces
+
+ITestListener - this is the interface
+
+TestListenerAdapter - this is a class
+--------------------------------------------------
+you test something manually
+
+you script your automation code
+
+you write your test cases
+
+you execute your test cases
+
+you analyze the test results
+
+3 outcomes of test cases - 
+some will pass
+some might fail - it will give you screenshot of the failure
+some might skip
+
+listeners are nothing but event triggers. They listen to the code, and accordingly pass their judgment

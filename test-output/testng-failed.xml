@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.code_25th_March_2023.CssSelector_Rediff">
+      <class name="com.automationcode_16th_April_ExtentReports.TNLoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="logOut"/>
-          <include name="openBrowser"/>
+          <include name="clickOnLogoutButton"/>
+          <include name="clickOnLoginButton"/>
+          <include name="enterLoginCredentials"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.automation.code_25th_March_2023.CssSelector_Rediff -->
+      </class> <!-- com.automationcode_16th_April_ExtentReports.TNLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

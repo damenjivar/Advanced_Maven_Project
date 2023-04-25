@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TN Suite">
+  <test name="TN Test">
+    <classes>
+      <class name="com.automationcode_8th_April_2023.TutorialsNinjaLoginTest"/>
+      <class name="com.automationcode_8th_April_2023.TutorialsNinjaRegisterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

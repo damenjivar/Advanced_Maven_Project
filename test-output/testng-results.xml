@@ -1,37 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-02T14:02:32 EDT" name="Default suite" finished-at="2023-04-02T14:02:43 EDT" duration-ms="11232">
+  <suite started-at="2023-04-24T19:41:42 EDT" name="Default suite" finished-at="2023-04-24T19:42:11 EDT" duration-ms="29504">
     <groups>
     </groups>
-    <test started-at="2023-04-02T14:02:32 EDT" name="Default test" finished-at="2023-04-02T14:02:43 EDT" duration-ms="11232">
-      <class name="com.automation.code_25th_March_2023.CssSelector_TN">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:32 EDT" name="openBrowser" finished-at="2023-04-02T14:02:38 EDT" duration-ms="5781" status="PASS">
+    <test started-at="2023-04-24T19:41:42 EDT" name="Default test" finished-at="2023-04-24T19:42:11 EDT" duration-ms="29504">
+      <class name="com.automationcode_16th_April_ExtentReports.TNLoginTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:42 EDT" name="openUrl" finished-at="2023-04-24T19:41:50 EDT" duration-ms="8138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="clickOnLoginLink()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:38 EDT" name="clickOnLoginLink" finished-at="2023-04-02T14:02:38 EDT" duration-ms="760" status="PASS">
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnMyAccount()[pri:1, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:50 EDT" name="clickOnMyAccount" finished-at="2023-04-24T19:41:50 EDT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnLoginLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:38 EDT" name="tearDown" finished-at="2023-04-02T14:02:39 EDT" duration-ms="289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:39 EDT" name="openBrowser" finished-at="2023-04-02T14:02:43 EDT" duration-ms="4108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="clickOnMyAccountLink()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:43 EDT" name="clickOnMyAccountLink" finished-at="2023-04-02T14:02:43 EDT" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnMyAccountLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.code_25th_March_2023.CssSelector_TN@2a7f1f10]" started-at="2023-04-02T14:02:43 EDT" name="tearDown" finished-at="2023-04-02T14:02:43 EDT" duration-ms="191" status="PASS">
+        </test-method> <!-- clickOnMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:50 EDT" name="tearDown" finished-at="2023-04-24T19:41:50 EDT" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.code_25th_March_2023.CssSelector_TN -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:50 EDT" name="openUrl" finished-at="2023-04-24T19:41:56 EDT" duration-ms="5851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnLogin()[pri:2, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:56 EDT" name="clickOnLogin" finished-at="2023-04-24T19:41:57 EDT" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:57 EDT" name="tearDown" finished-at="2023-04-24T19:41:57 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:41:57 EDT" name="openUrl" finished-at="2023-04-24T19:42:02 EDT" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="enterLoginCredentials()[pri:3, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:02 EDT" name="enterLoginCredentials" finished-at="2023-04-24T19:42:03 EDT" duration-ms="753" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.automationcode_16th_April_ExtentReports.TNLoginTest.enterLoginCredentials(TNLoginTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:03 EDT" name="tearDown" finished-at="2023-04-24T19:42:03 EDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:03 EDT" name="openUrl" finished-at="2023-04-24T19:42:09 EDT" duration-ms="5803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnLoginButton()[pri:4, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:09 EDT" name="clickOnLoginButton" finished-at="2023-04-24T19:42:11 EDT" duration-ms="2063" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at com.automationcode_16th_April_ExtentReports.TNLoginTest.clickOnLoginButton(TNLoginTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:11 EDT" name="tearDown" finished-at="2023-04-24T19:42:11 EDT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnLogoutButton()[pri:5, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e]" started-at="2023-04-24T19:42:11 EDT" name="clickOnLogoutButton" finished-at="2023-04-24T19:42:11 EDT" depends-on-methods="com.automationcode_16th_April_ExtentReports.TNLoginTest.clickOnLoginButton" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TNLoginTest.clickOnLogoutButton()[pri:5, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TNLoginTest.clickOnLogoutButton()[pri:5, instance:com.automationcode_16th_April_ExtentReports.TNLoginTest@f78a47e] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogoutButton -->
+      </class> <!-- com.automationcode_16th_April_ExtentReports.TNLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
